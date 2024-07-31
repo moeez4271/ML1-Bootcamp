@@ -1,0 +1,17 @@
+path: '/content/gdrive/My Drive/Colab Notebooks/shirts_dataset_yolo/data'  # Base path for the dataset
+
+# Use the same images for both training and validation
+train: '/content/gdrive/My Drive/Colab Notebooks/shirts_dataset_yolo/data/images'  # Path to images for training
+val: '/content/gdrive/My Drive/Colab Notebooks/shirts_dataset_yolo/data/images'    # Path to images for validation
+
+# Assuming your labels are in a separate folder with the same structure
+# YOLO expects labels to be in the same directory structure as images
+# The labels folder should be structured like this:
+# /content/gdrive/My Drive/shirts_dataset_yolo/data/labels/train/
+# /content/gdrive/My Drive/shirts_dataset_yolo/data/labels/val/
+
+names:
+  0: Blue shirt
+  1: Gray shirt
+  2: Black shirt
+  3: White shirt
